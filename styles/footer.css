@@ -1,32 +1,4 @@
-.footer__top{
-    background-color: black;
-}
-.footer__row{
-    padding: 14px 0;
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid red;
-}
-.left__text, .right__text{
 
-    font-family: 'PT Sans', sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #969696;
-}
-.left__text{
-    padding-right: 15px;
-}
-.right__text{
-    padding-left: 15px;
-}
-.footer__top_left, .footer__top_right{
-    display: flex;
-    border: 2px solid yellow;
     
     
 }
