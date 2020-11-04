@@ -1,0 +1,62 @@
+/*HERO
+==============================================*/
+.hero{
+    background-image: url('/img/jpg/background-image.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    position: relative;
+    width: 100%;
+}
+
+.hero__wrapper{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+    top:0;
+    left: 0;
+}
+.hero__rectangle{
+    padding: 93px 70px;
+    border: 4px solid white;
+    margin-bottom: 80px;
+}
+.hero__title{
+    font-family: PT Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 7px;
+
+}
+.hero__logo{
+    width: 170px;
+    height: 86px;
+}
+
+.hero__line{
+    width: 170px;
+    height: 1px;
+    background-color: white;
+}
+
+.hero__description{
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    width: 30%;
+
+}
