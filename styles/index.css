@@ -1,0 +1,32 @@
+@import './header.css';
+@import './base.css';
+@import './hero.css';
+@import './footer.css';
+@import './reset.css';
+@import 'style.css';
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+
+
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+
+}
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
