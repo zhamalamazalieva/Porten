@@ -5,17 +5,15 @@
     background-position: center;
     background-size: cover;
     min-height: 810px;
-    position: relative;
     width: 100%;
 }
 
 .hero__wrapper{
-    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 160px;
+    padding-top: 160px;
     top:0;
     left: 0;
 }
@@ -58,7 +56,7 @@
     letter-spacing: 0em;
     text-align: center;
     color: white;
-    width: 40%;
+    width: 70%;
     text-transform: uppercase;
 
 }

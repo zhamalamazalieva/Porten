@@ -81,12 +81,12 @@
 .search-icon{
     width: 23px;
     height: 23px;
-    fill:white;
+    fill:#969696;
     padding-right: 0;
 
 }
 .busket-icon{
-    fill: white;
+    fill:#969696;
     width: 23px;
     height: 23px;
 }
@@ -98,4 +98,15 @@
 .nav__item:hover .nav__link{
     background-color: #1f1f1f;
     color: white;
+    font-size: 16px;
+}
+.search-icon:hover{
+    fill:white;
+    width: 27px;
+    height: 27px;
+}
+.busket-icon:hover{
+    fill:white;
+    width: 27px;
+    height: 27px;
 }
