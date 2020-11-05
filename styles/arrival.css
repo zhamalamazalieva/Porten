@@ -1,0 +1,66 @@
+.arrival__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.arrival-row{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    width: 25%;
+}
+.arrival__title{
+    margin-top: 120px;
+}
+.arrival__line{
+    margin-top:40px ;
+}
+.arrival__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 42px;
+  }
+  .arrival__item:first-child{
+      margin-left: 0;
+  }
+  .arrival__item:last-child(1){
+      margin-right: 0;
+  }
+ 
+  .arrival__watch-name {
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .arrival__watch-price {
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-bottom: 110px;
+  }
+.arrival__link{
+  display: inline-block;
+  width: 250px;
+  background-color:#191b1c;
+  margin-bottom: 25px;
+}
+.arrival__container{
+    padding: 40px 10px;
+}
+.watch-img{
+    width: 100%;
+}
