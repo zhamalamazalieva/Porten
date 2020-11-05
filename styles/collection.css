@@ -1,0 +1,50 @@
+.collection{
+    background-color: black;
+    display: flex;
+}
+.col-5{
+    width: 40%;
+}
+
+.col-7{
+    width: 60%;
+}
+
+.collection__left{
+    background-image: url('../img/jpg/img3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+.collection__right{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection__title{
+    margin-top: 100px;
+}
+.collection__line{
+    margin-top: 40px;
+}
+.collection__description{
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: white;
+    width: 45%;
+    margin-top: 40px;
+
+}
+.collection__button{
+    margin-top: 60px;
+   
+}

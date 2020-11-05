@@ -2,6 +2,7 @@
 @import './base.css';
 @import './hero.css';
 @import './saison.css';
+@import './collection.css';
 @import './footer.css';
 @import './reset.css';
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
@@ -19,7 +20,7 @@ html{
     box-sizing: border-box;
 }
 body{
-
+    -webkit-font-smoothing: antialiased;
 }
 .container {
     width: 100%;
