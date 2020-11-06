@@ -177,4 +177,20 @@
   .gallery__img{
     margin-bottom: 10px;
   }
+
+  .saison__right {
+    height: 55vh;
+    background-position: center;
+  }
+  .saison__right_title {
+    margin: 100px 0 0 0;
+  }
+  .saison__right_line {
+    margin: 20px 0 20px 0;
+  }
+  .saison__right_button {
+    margin-bottom: 100px;
+    margin-top: 20px;
+  }
+  
 }
