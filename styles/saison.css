@@ -51,6 +51,7 @@
 }
 .slider__item {
   display: flex !important;
+  padding:0 25px;
 
 }
 .gallery__item {
@@ -58,9 +59,13 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 20px;
+  width:33.33333%
 }
 .gallery__item:nth-last-child(1){
   margin-right:0 ;
+}
+.gallery__item:first-child{
+  margin-left:0 ;
 }
 .gallery__name {
   font-family: Playfair Display;
