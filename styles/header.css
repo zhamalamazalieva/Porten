@@ -25,6 +25,7 @@
     text-align: right;
     color: #969696;
     cursor: pointer;
+    transition: .5s;
 }
 .left__link{
     text-align: left;
@@ -41,6 +42,15 @@
     margin-right: 15px;
 
 }
+.right__link:hover{
+    color: white;
+    font-size: 16px;
+}
+.left__link:hover{
+    color: white;
+    font-size: 16px;
+}
+
 
 /*header bottom
 =============================*/
@@ -68,8 +78,8 @@
     display: inline-block;
     padding: 30px 20px;
     cursor: pointer;
-
 }
+
 
 .logo-icon{
     max-width: 109px;
