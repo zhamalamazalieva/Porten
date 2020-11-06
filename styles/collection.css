@@ -52,33 +52,31 @@
   margin-top: 60px;
 }
 
-
 /*MEDIA
 =========================================*/
-@media screen and (max-width:1024px){
-  .col-5{
+@media screen and (max-width: 1024px) {
+  .col-5 {
     width: 100%;
   }
-  .col-7{
+  .col-7 {
     width: 100%;
   }
-  .collection__left{
+  .collection__left {
     min-height: 55vh;
     padding: 0 20px;
   }
-  .collection__title{
+  .collection__title {
     margin: 50px 0 0 0;
   }
-  .collection__line{
+  .collection__line {
     margin-top: 30px;
   }
-  .collection__description{
+  .collection__description {
     margin-top: 30px;
     width: 100%;
     padding: 0 25px;
   }
-  .collection__button{
+  .collection__button {
     margin-top: 30px;
   }
-
 }
