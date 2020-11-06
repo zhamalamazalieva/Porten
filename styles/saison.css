@@ -177,6 +177,9 @@
   .gallery__img{
     margin-bottom: 10px;
   }
+  .title{
+    font-size:27px ;
+  }
 
   .saison__right {
     height: 55vh;
