@@ -33,6 +33,24 @@
     letter-spacing: 0em;
     text-align: left;
     color: white;
+    padding-right: 20px;
+
+}
+
+.category__item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category__link{
+    padding: 15px 20px;
+    background-color: #151515;
+    color: white;
+    margin:0 20px 20px 0;
+    transition: all 0.7s;
+}
+.category__link:hover{
+    background-color: rgba(255, 255, 255, .2);
 
 }
 .footer__form{
@@ -56,7 +74,7 @@
 }
 .footer__button{
     padding: 13px 20px;
-    background-color: black;
+    background-color:#151515;
     border: none;
     outline: none;
     font-family: PT Sans;
@@ -68,13 +86,11 @@
     text-align: left;
     color: white;
     text-transform: uppercase;
-    transition: all 0.7s;
-}
+c}
 
 
 .footer__button:hover{
     background-color: rgba(255, 255, 255, .2);
-
 }
 .footer__email::placeholder{
     color: white;
