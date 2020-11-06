@@ -48,6 +48,7 @@
     color: white;
     margin:0 20px 20px 0;
     transition: all 0.7s;
+    font-weight: 200;
 }
 .category__link:hover{
     background-color: rgba(255, 255, 255, .2);
@@ -94,4 +95,25 @@ c}
 }
 .footer__email::placeholder{
     color: white;
+}
+
+.footer__bottom{
+    background-color: #151515;
+    padding: 17px 0;
+}
+.bottom__row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom__text{
+    font-family: PT Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
 }
