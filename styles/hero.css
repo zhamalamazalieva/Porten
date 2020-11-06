@@ -58,3 +58,28 @@
   width: 70%;
   text-transform: uppercase;
 }
+
+/*MEDIA
+=============================================*/
+@media screen and (max-width: 1024px) {
+  .hero {
+    min-height: 50vh;
+  }
+  .hero__description {
+    display: none;
+  }
+  .hero__rectangle {
+    padding: 50px 30px;
+  }
+  .hero__wrapper {
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0;
+  }
+
+  .hero__rectangle {
+    margin-bottom: 0;
+  }
+}

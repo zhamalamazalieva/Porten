@@ -113,3 +113,18 @@
   width: 27px;
   height: 27px;
 }
+
+
+/*MEDIA
+=============================================*/
+@media screen and (max-width:1024px){
+  .header__top{
+    display: none;
+  }
+  .header__nav{
+    display: none;
+  }
+  .header__bottom{
+    padding: 20px 0;
+  }
+}
