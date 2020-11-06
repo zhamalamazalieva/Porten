@@ -4,16 +4,6 @@
 .col-6 {
   width: 50%;
 }
-
-
-.saison__left {
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .title {
   font-family: Playfair Display;
   font-size: 36px;
@@ -30,8 +20,15 @@
   height: 1px;
   background-color: white;
 }
-/*left 
-==============================*/
+/*saison left
+=======================================*/
+.saison__left {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .saison__left_title {
   margin-top: 93px;
   margin-bottom: 50px;
@@ -39,29 +36,22 @@
 .saison__left_line {
   margin-bottom: 50px;
 }
-
-
-
-
-
 .saison__slider {
   display: flex !important;
   width: 100%;
   align-items: center;
   justify-content: center;
- 
 }
 .slider__item {
   display: flex !important;
   width: 100%;
   padding: 0 20px;
-
 }
 .gallery__item {
   display: flex !important;
   flex-direction: column;
   justify-content: center;
-  width:33.33333%;
+  width: 33.33333%;
   margin: 0 20px;
 }
 
@@ -93,8 +83,8 @@
   margin-bottom: 25px;
 }
 
-/*right
-==============================*/
+/*saison right
+=======================================*/
 .saison__right {
   background-image: url("../img/jpg/img2.jpg");
   background-size: cover;
@@ -116,9 +106,8 @@
   margin-bottom: 100px;
 }
 
-/*
-slider
-========================================*/
+/*slider
+=======================================*/
 
 .saison .slick-slide {
   border: none !important;
@@ -149,7 +138,7 @@ slider
   height: 10px;
   border-radius: 50%;
   font-size: 0;
-  background-color:rgba(255,255,255,.1);
+  background-color: rgba(255, 255, 255, 0.1);
   border: none;
 }
 

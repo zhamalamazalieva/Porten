@@ -1,3 +1,5 @@
+/*footer top
+===============================================*/
 .footer__info{
     background-image: url('../img/jpg/img4.png');
     background-position: center;
@@ -87,7 +89,7 @@
     text-align: left;
     color: white;
     text-transform: uppercase;
-c}
+}
 
 
 .footer__button:hover{
@@ -96,7 +98,8 @@ c}
 .footer__email::placeholder{
     color: white;
 }
-
+/*footer bottom
+===============================================*/
 .footer__bottom{
     background-color: #151515;
     padding: 17px 0;
