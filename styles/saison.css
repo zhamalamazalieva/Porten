@@ -96,7 +96,7 @@
 /*right
 ==============================*/
 .saison__right {
-  background-image: url("/img/jpg/img2.jpg");
+  background-image: url("../img/jpg/img2.jpg");
   background-size: cover;
   width: 100%;
   height: 100%;
