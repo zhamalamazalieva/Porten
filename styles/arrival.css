@@ -12,7 +12,6 @@
 .arrival__line {
   margin-bottom: 80px;
   margin-top: 40px;
-
 }
 .col-3 {
   width: 25%;
@@ -66,33 +65,31 @@
 
 /*MEDIA
 =======================================*/
-@media screen and (max-width:1024px){
-  .arrival__title{
+@media screen and (max-width: 1024px) {
+  .arrival__title {
     margin-top: 50px;
     font-size: 25px;
   }
-  .arrival__line{
-    margin:30px 0;
+  .arrival__line {
+    margin: 30px 0;
   }
-  .col-3{
+  .col-3 {
     width: 100%;
-  }  
-  .arrival__link{
+  }
+  .arrival__link {
     padding: 40px 30px;
   }
-  .watch-img{
+  .watch-img {
     max-width: 200px;
   }
-  .arrival__item{
+  .arrival__item {
     justify-content: center;
     align-items: center;
   }
- .arrival__watch-price{
+  .arrival__watch-price {
     margin-bottom: 30px;
   }
- .arrival-row{
-   padding-bottom: 50px;
- }
- 
-  
+  .arrival-row {
+    padding-bottom: 50px;
+  }
 }

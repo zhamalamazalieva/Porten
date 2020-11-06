@@ -17,17 +17,33 @@
 .brand__row {
   margin: 40px 0 80px 0;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .brand .col-3 {
   width: 25%;
 }
 .brand__item {
-  margin: 10px;
+  margin:0 15px;
 }
-.brand__item:first-child {
-  margin-left: 0;
-}
-.brand__item:nth-last-child(1) {
-  margin-right: 0;
+
+
+
+/*MEDIA
+=======================================*/
+@media screen and (max-width:1024px){
+  .brand__title{
+    margin-top: 50px;
+  }
+  .brand__line{
+    margin-top: 30px;
+  }
+  .brand__row{
+    margin-top: 30px;
+  }
+  .brand__row .col-3{
+    width: 100%;
+  }
+  .brand__item{
+    padding: 0 25px;
+  }
 }
