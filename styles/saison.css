@@ -40,33 +40,31 @@
   margin-bottom: 50px;
 }
 
+
+
+
+
 .saison__slider {
   display: flex !important;
-  margin: 0 auto;
   width: 100%;
   align-items: center;
   justify-content: center;
-  top:0;
-  left: 0;
+ 
 }
 .slider__item {
   display: flex !important;
-  padding:0 25px;
+  width: 100%;
+  padding: 0 20px;
 
 }
 .gallery__item {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   justify-content: center;
+  width:33.33333%;
   margin: 0 20px;
-  width:33.33333%
 }
-.gallery__item:nth-last-child(1){
-  margin-right:0 ;
-}
-.gallery__item:first-child{
-  margin-left:0 ;
-}
+
 .gallery__name {
   font-family: Playfair Display;
   font-size: 18px;
@@ -94,6 +92,7 @@
   background-color: #191b1c;
   margin-bottom: 25px;
 }
+
 /*right
 ==============================*/
 .saison__right {
@@ -143,14 +142,15 @@ slider
 }
 
 .saison .slick-dots li {
-  margin: 0 20px;
+  margin: 0 15px;
 }
 .saison .slick-dots li button {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   font-size: 0;
-  background-color:transparent;
+  background-color:rgba(255,255,255,.1);
+  border: none;
 }
 
 .saison .slick-dots .slick-active button {
