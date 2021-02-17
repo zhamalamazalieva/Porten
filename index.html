@@ -55,52 +55,56 @@
     <header class="header">
         <div class="header__top">
             <div class="container">
-                <div class="header__row">
-                    <div class="header__top_left">
-                        <svg class="phone-icon">
+                <div class="header__row row">
+                    <div class="header__top--left row">
+                        <svg class="header__phone">
                             <use xlink:href="#phone"></use>
                         </svg>
-                        <span class="left__link">8 (812) 123-45-67</span>
-                        <span class="left__link">|</span>
-                        <span class="left__link">Работаем 7 дней в неделю</span>
-                        <span class="left__link">|</span>
-                        <span class="left__link">9:00 - 18:00</span>
+                        <span class="header__info">8 (812) 123-45-67</span>
+                        <span class="header__info">|</span>
+                        <span class="header__info">Работаем 7 дней в неделю</span>
+                        <span class="header__info">|</span>
+                        <span class="header__info">9:00 - 18:00</span>
                     </div>
-                    <div class="header__top_right">
-                        <svg class="login-icon">
+                    <div class="header__top--right row">
+                        <svg class="header__login-icon">
                             <use xlink:href="#login"></use>
                         </svg>
-                        <a class="right__link">Войти</a>
+                        <a class="header__link">Войти</a>
                         <span class="slash">/</span>
-                        <a class="right__link">Регистрация</a>
+                        <a class="header__link">Регистрация</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="header__bottom">
             <div class="container">
-                <div class="header__row">
-                    <div class="header__logo"><svg class="logo-icon">
+                <div class="header__row row">
+                    <div class="header__logo">
+                        <svg class="header__logo-icon">
                             <use xlink:href="#header-logo"></use>
-                        </svg></div>
-                    <nav class="header__nav">
+                        </svg>
+                    </div>
+                    <nav class="header__nav nav">
                         <ul class="nav__menu">
                             <li class="nav__item"><a href="#" class="nav__link">ПОНРАВИЛОСЬ</a></li>
                             <li class="nav__item"><a href="#" class="nav__link">ЛИЧНЫЙ КАБИНЕТ</a></li>
                             <li class="nav__item"><a href="#" class="nav__link">НАСТРОЙКИ</a></li>
                         </ul>
-                        <a href="#" class="icon"><svg class="busket-icon">
+                        <a href="#" class="header__icon">
+                            <svg class="busket-icon">
                                 <use xlink:href="#busket"></use>
-                            </svg></a>
-                        <a href="#" class="icon"><svg class="search-icon">
+                            </svg>
+                        </a>
+                        <a href="#" class="header__icon">
+                            <svg class="search-icon">
                                 <use xlink:href="#search"></use>
-                            </svg></a>
+                            </svg>
+                        </a>
                     </nav>
                 </div>
             </div>
-
         </div>
-
     </header>
     <!----------------------------- main ------------------------------------>
     <main>
@@ -110,8 +114,7 @@
                 <div class="hero__wrapper">
                     <div class="hero__rectangle wow fadeInDown" data-wow-duration="1.6s" data-wow-delay="0s">
                         <img src="./img/svg/PORTEN.svg" alt="logo" class="hero__logo">
-                        <div class="hero__line"></div>
-                        <div class="hero__title">сант-петербург</div>
+                        <h4 class="hero__title">сант-петербург</h4>
                     </div>
                     <div class="hero__description wow fadeInUp" data-wow-duration="1.6s" data-wow-delay="1s">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -120,77 +123,80 @@
                             Tortor id eu interdum nec ut iaculis. Penatibus
                             ullamcorper ultricies morbi ipsum sem metus pharetra,
                             mi. Tortor nibh magna feugiat id nunc, dui nisl
-                            viverra.</p>
+                            viverra.
+                        </p>
                     </div>
                 </div>
             </div>
 
         </section>
         <!---------------------------- saison ----------------------------------->
-        <section class="saison">
-            <div class="col-6">
+        <section class="saison row">
+            <div class="col-7">
                 <div class="saison__left">
-                    <h1 class="saison__left_title title wow zoomIn" data-wow-duration="2s">СЕЗОН 2020/21</h1>
-                    <div class="saison__left_line vertical-line"></div>
-                    <div class="saison__slider">
-                        <div class="slider__item">
-                            <div class="gallery__item">
-                                <div class="gallery__img">
-                                    <img src="./img/png/img1.png" alt="" class="watch-img">
+                    <h1 class="saison__title section__title wow zoomIn" data-wow-duration="2s">СЕЗОН 2020/21</h1>
+                    <div class="section__line"></div>
+                    <div class="saison__slider row">
+                        <div class="col-4 saison__margin">
+                            <div class="saison__item">
+                                <div class="saison__img">
+                                    <img src="./img/png/img1.png" alt="" class="saison__watch">
                                 </div>
-                                <span class="gallery__name">Louis XVI ATHOS</span>
-                                <span class="gallery__price">165 000 руб. </span>
-                            </div>
-                            <div class="gallery__item">
-                                <div class="gallery__img">
-                                    <img src="./img/png/img1.png" alt="" class="watch-img">
-                                </div>
-                                <span class="gallery__name">Louis XVI ATHOS</span>
-                                <span class="gallery__price">165 000 руб. </span>
-                            </div>
-                            <div class="gallery__item">
-                                <div class="gallery__img">
-                                    <img src="./img/png/img1.png" alt="" class="watch-img">
-                                </div>
-                                <span class="gallery__name">Louis XVI ATHOS</span>
-                                <span class="gallery__price">165 000 руб. </span>
-                            </div>
-                            <div class="gallery__item">
-                                <div class="gallery__img">
-                                    <img src="./img/png/img1.png" alt="" class="watch-img">
-                                </div>
-                                <span class="gallery__name">Louis XVI ATHOS</span>
-                                <span class="gallery__price">165 000 руб. </span>
-                            </div>
-                            <div class="gallery__item">
-                                <div class="gallery__img">
-                                    <img src="./img/png/img1.png" alt="" class="watch-img">
-                                </div>
-                                <span class="gallery__name">Louis XVI ATHOS</span>
-                                <span class="gallery__price">165 000 руб. </span>
+                                <span class="saison__name">Louis XVI ATHOS</span>
+                                <span class="saison__price">165 000 руб. </span>
                             </div>
                         </div>
+                        <div class="col-4 saison__margin">
+                            <div class="saison__item">
+                                <div class="saison__img">
+                                    <img src="./img/png/img1.png" alt="" class="saison__watch">
+                                </div>
+                                <span class="saison__name">Louis XVI ATHOS</span>
+                                <span class="saison__price">165 000 руб. </span>
+                            </div>
+                        </div>
+                        <div class="col-4 saison__margin">
+                            <div class="saison__item">
+                                <div class="saison__img">
+                                    <img src="./img/png/img1.png" alt="" class="saison__watch">
+                                </div>
+                                <span class="saison__name">Louis XVI ATHOS</span>
+                                <span class="saison__price">165 000 руб. </span>
+                            </div>
+                        </div>
+                        <div class="col-4 saison__margin">
+                            <div class="saison__item">
+                                <div class="saison__img">
+                                    <img src="./img/png/img1.png" alt="" class="saison__watch">
+                                </div>
+                                <span class="saison__name">Louis XVI ATHOS</span>
+                                <span class="saison__price">165 000 руб. </span>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-5">
                 <div class="saison__right">
-                    <h1 class="saison__right_title title wow zoomIn" data-wow-duration="2s">НОВАЯ КОЛЛЕКЦИЯ</h1>
-                    <div class="saison__right_line vertical-line"></div>
-                    <a href="#" class="saison__right_button btn">КАТАЛОГ</a>
+                    <div class="saison__content">
+                        <h1 class="section__title wow zoomIn" data-wow-duration="2s">НОВАЯ КОЛЛЕКЦИЯ</h1>
+                        <div class="section__line"></div>
+                        <a href="#" class="saison__right_button btn">КАТАЛОГ</a>
+                    </div>
                 </div>
             </div>
         </section>
         <!-------------------------- collection---------------------------------->
-        <section class="collection">
+        <section class="collection row">
             <div class="col-5">
                 <div class="collection__left"></div>
             </div>
             <div class="col-7">
                 <div class="collection__right">
-                    <h1 class="collection__title title wow zoomIn" data-wow-duration="2s">коллекция 2020/21</h1>
-                    <div class="collection__line vertical-line  wow fadeInBottomRight" data-wow-duration="1.6s"
-                        data-wow-delay="1s"></div>
+                    <h1 class="collection__title section__title title wow zoomIn" data-wow-duration="2s">коллекция
+                        2020/21</h1>
+                    <div class="section__line wow fadeInBottomRight" data-wow-duration="1.6s" data-wow-delay="1s"></div>
                     <p class="collection__description text  wow fadeInBottomRig" data-wow-duration="1.6s"
                         data-wow-delay="2s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non
                         rutrum ornare ut mattis habitant dui arcu. Sagittis amet nunc ut neque quis nibh arcu. Vivamus
@@ -207,93 +213,92 @@
         <section class="arrival">
             <div class="container">
                 <div class="arrival__inner">
-                    <h1 class="arrival__title title wow zoomIn" data-wow-duration="2s">новые поступления</h1>
-                    <div class="arrival__line vertical-line"></div>
-                    <div class="arrival-row">
-
-                        <div class="col-3">
+                    <h1 class="section__title wow zoomIn" data-wow-duration="2s">новые поступления</h1>
+                    <div class="section__line"></div>
+                    <div class="arrival__row row">
+                        <div class="col-3 arrival__margin">
                             <div class="arrival__item  wow fadeInDown" data-wow-duration=".5s" data-wow-delay="0s">
                                 <a href="#" class="arrival__link">
-                                    <img src="./img/png/img1.png" alt="" class="watch-img">
+                                    <img src="./img/png/img1.png" alt="" class="arrival__watch">
                                 </a>
                                 <span class="arrival__watch-name">Louis XVI ATHOS</span>
                                 <span class="arrival__watch-price">165 000 руб. </span>
                             </div>
-
                         </div>
-
-                        <div class="col-3">
-                            <div class="arrival__item wow fadeInDown" data-wow-duration=".5s" data-wow-delay="1s">
+                        <div class="col-3 arrival__margin">
+                            <div class="arrival__item  wow fadeInDown" data-wow-duration=".5s" data-wow-delay="0s">
                                 <a href="#" class="arrival__link">
-                                    <img src="./img/png/img1.png" alt="" class="watch-img">
+                                    <img src="./img/png/img1.png" alt="" class="arrival__watch">
                                 </a>
                                 <span class="arrival__watch-name">Louis XVI ATHOS</span>
                                 <span class="arrival__watch-price">165 000 руб. </span>
                             </div>
                         </div>
+                        <div class="col-3 arrival__margin">
+                            <div class="arrival__item  wow fadeInDown" data-wow-duration=".5s" data-wow-delay="0s">
+                                <div class="arrival__link">
+                                    <img src="./img/png/img1.png" alt="" class="arrival__watch">
+                                </div>
+                                <span class="arrival__watch-name">Louis XVI ATHOS</span>
+                                <span class="arrival__watch-price">165 000 руб. </span>
+                            </div>
+                        </div>
 
-                        <div class="col-3">
-                            <div class="arrival__item wow fadeInDown" data-wow-duration=".5s" data-wow-delay="2s">
+                        <div class="col-3 arrival__margin">
+                            <div class="arrival__item  wow fadeInDown" data-wow-duration=".5s" data-wow-delay="0s">
                                 <a href="#" class="arrival__link">
-                                    <img src="./img/png/img1.png" alt="" class="watch-img">
+                                    <img src="./img/png/img1.png" alt="" class="arrival__watch">
                                 </a>
                                 <span class="arrival__watch-name">Louis XVI ATHOS</span>
                                 <span class="arrival__watch-price">165 000 руб. </span>
                             </div>
-
                         </div>
-
-                        <div class="col-3">
-                            <div class="arrival__item wow fadeInDown" data-wow-duration=".5s" data-wow-delay="3s">
+                        <div class="col-3 arrival__margin">
+                            <div class="arrival__item  wow fadeInDown" data-wow-duration=".5s" data-wow-delay="0s">
                                 <a href="#" class="arrival__link">
-                                    <img src="./img/png/img1.png" alt="" class="watch-img">
+                                    <img src="./img/png/img1.png" alt="" class="arrival__watch">
                                 </a>
                                 <span class="arrival__watch-name">Louis XVI ATHOS</span>
                                 <span class="arrival__watch-price">165 000 руб. </span>
                             </div>
                         </div>
-
-                        <div class="col-3">
-                            <div class="arrival__item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
+                        <div class="col-3 arrival__margin">
+                            <div class="arrival__item  wow fadeInDown" data-wow-duration=".5s" data-wow-delay="0s">
                                 <a href="#" class="arrival__link">
-                                    <img src="./img/png/img1.png" alt="" class="watch-img">
+                                    <img src="./img/png/img1.png" alt="" class="arrival__watch">
                                 </a>
                                 <span class="arrival__watch-name">Louis XVI ATHOS</span>
                                 <span class="arrival__watch-price">165 000 руб. </span>
                             </div>
-
                         </div>
-
-                        <div class="col-3">
-                            <div class="arrival__item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="2s">
+                        <div class="col-3 arrival__margin">
+                            <div class="arrival__item  wow fadeInDown" data-wow-duration=".5s" data-wow-delay="0s">
                                 <a href="#" class="arrival__link">
-                                    <img src="./img/png/img1.png" alt="" class="watch-img">
+                                    <img src="./img/png/img1.png" alt="" class="arrival__watch">
                                 </a>
                                 <span class="arrival__watch-name">Louis XVI ATHOS</span>
                                 <span class="arrival__watch-price">165 000 руб. </span>
                             </div>
                         </div>
-
-                        <div class="col-3">
-                            <div class="arrival__item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="3s">
+                        <div class="col-3 arrival__margin">
+                            <div class="arrival__item  wow fadeInDown" data-wow-duration=".5s" data-wow-delay="0s">
                                 <a href="#" class="arrival__link">
-                                    <img src="./img/png/img1.png" alt="" class="watch-img">
+                                    <img src="./img/png/img1.png" alt="" class="arrival__watch">
                                 </a>
                                 <span class="arrival__watch-name">Louis XVI ATHOS</span>
                                 <span class="arrival__watch-price">165 000 руб. </span>
                             </div>
-
                         </div>
-
-                        <div class="col-3">
-                            <div class="arrival__item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="4s">
+                        <div class="col-3 arrival__margin">
+                            <div class="arrival__item  wow fadeInDown" data-wow-duration=".5s" data-wow-delay="0s">
                                 <a href="#" class="arrival__link">
-                                    <img src="./img/png/img1.png" alt="" class="watch-img">
+                                    <img src="./img/png/img1.png" alt="" class="arrival__watch">
                                 </a>
                                 <span class="arrival__watch-name">Louis XVI ATHOS</span>
                                 <span class="arrival__watch-price">165 000 руб. </span>
                             </div>
                         </div>
+
 
                     </div>
                 </div>
@@ -301,37 +306,34 @@
         </section>
         <!---------------------------- brand ------------------------------------>
         <section class="brand">
-            <div class="brand__background">
-                <div class="container">
-                    <div class="brand__inner">
-                        <h1 class="brand__title title wow zoomIn" data-wow-duration="2s">НАШИ БРЕНДЫ</h1>
-                        <div class="brand__line vertical-line"></div>
-                        <div class="brand__row">
-                            <div class="col-3">
-                                <div class="brand__item">
-                                    <img src="./img/svg/jewelry.svg" alt="logo" class="brand__logo">
-                                </div>
+            <div class="container">
+                <div class="brand__inner">
+                    <h1 class="section__title wow zoomIn" data-wow-duration="2s">НАШИ БРЕНДЫ</h1>
+                    <div class="section__line"></div>
+                    <div class="brand__row row">
+                        <div class="col-3 brand__margin">
+                            <div class="brand__item">
+                                <img src="./img/svg/jewelry.svg" alt="logo" class="brand__logo">
                             </div>
-                            <div class="col-3">
-                                <div class="brand__item">
-                                    <img src="./img/svg/jewelry.svg" alt="logo" class="brand__logo">
-                                </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="brand__item">
+                                <img src="./img/svg/jewelry.svg" alt="logo" class="brand__logo">
                             </div>
-                            <div class="col-3">
-                                <div class="brand__item">
-                                    <img src="./img/svg/jewelry.svg" alt="logo" class="brand__logo">
-                                </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="brand__item">
+                                <img src="./img/svg/jewelry.svg" alt="logo" class="brand__logo">
                             </div>
-                            <div class="col-3">
-                                <div class="brand__item">
-                                    <img src="./img/svg/jewelry.svg" alt="logo" class="brand__logo">
-                                </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="brand__item">
+                                <img src="./img/svg/jewelry.svg" alt="logo" class="brand__logo">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
         <!---------------------------- info ------------------------------------->
         <footer class="footer">

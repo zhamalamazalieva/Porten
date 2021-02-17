@@ -1,15 +1,4 @@
-.collection {
-  background-color: black;
-  display: flex;
-  flex-wrap: wrap;
-}
-.col-5 {
-  width: 45%;
-}
 
-.col-7 {
-  width: 55%;
-}
 /*collection left
 ====================================================*/
 .collection__left {
@@ -17,28 +6,24 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 600px;
+  height: 100%;
 }
 /*collection right
 ====================================================*/
 
 .collection__right {
-  background-color: black;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding: 80px 0;
 }
 
-.collection__title {
-  margin-top: 100px;
-}
 .collection__line {
   margin-top: 40px;
 }
 .collection__description {
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -46,7 +31,6 @@
   letter-spacing: 0em;
   color: white;
   width: 45%;
-  margin-top: 40px;
 }
 .collection__button {
   margin-top: 60px;

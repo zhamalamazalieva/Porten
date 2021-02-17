@@ -1,23 +1,19 @@
 /*header top
 =========================================*/
-.header__top {
-  background-color: black;
-}
 .header__row {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header__top_left,
-.header__top_right {
+.header__top--left,
+.header__top--right {
   display: flex;
   padding: 15px 0;
 }
 .slash {
   margin-left: 5px;
 }
-.left__link,
-.right__link,
+.header__info,
+.header__link,
 .slash {
   font-family: PT Sans;
   font-size: 12px;
@@ -30,28 +26,21 @@
   cursor: pointer;
   transition: 0.5s;
 }
-.left__link {
+.header__info {
   text-align: left;
   padding-right: 20px;
 }
-.right__link {
+.header__link {
   padding-left: 5px;
 }
-.phone-icon,
-.login-icon {
+.header__phone,
+.header__login-icon {
   width: 15px;
   height: 15px;
   fill: #969696;
   margin-right: 15px;
 }
-.right__link:hover {
-  color: white;
-  font-size: 16px;
-}
-.left__link:hover {
-  color: white;
-  font-size: 16px;
-}
+
 
 /*header bottom
 =========================================*/
@@ -78,8 +67,9 @@
   display: inline-block;
   padding: 30px 20px;
   cursor: pointer;
+  transition: 0.3s;
 }
-.logo-icon {
+.header__logo-icon {
   max-width: 109px;
   height: 50px;
   fill: white;
@@ -95,23 +85,21 @@
   width: 23px;
   height: 23px;
 }
-.icon {
+.header__icon {
   margin-left: 40px;
+  transition: 0.3s;
 }
 .nav__item:hover .nav__link {
   background-color: #1f1f1f;
   color: white;
-  font-size: 16px;
+  transform: scale(1.2);
 }
 .search-icon:hover {
   fill: white;
-  width: 27px;
-  height: 27px;
+
 }
 .busket-icon:hover {
   fill: white;
-  width: 27px;
-  height: 27px;
 }
 
 
