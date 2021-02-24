@@ -134,23 +134,20 @@
   .col-6 {
     width: 100%;
   }
-  .saison__left_title {
-    margin: 50px 0 30px 0;
-  }
-  .saison__left_line {
-    margin-bottom: 30px;
+  .saison__title {
+    margin: 30px 0 30px 0;
   }
   .saison .slick-dots {
-    top: 280px;
+    top: 380px;
   }
-  .gallery__price {
+  .saison__price{
     margin-bottom: 90px;
     font-size: 14px;
   }
-  .gallery__name {
+  .saison_name {
     font-size: 16px;
   }
-  .gallery__img {
+  .saison__img {
     margin-bottom: 10px;
   }
   .title {

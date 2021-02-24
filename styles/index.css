@@ -94,8 +94,23 @@ a {
   .container {
     padding: 0 25px;
   }
+  .col-6{
+    width: 100%;
+  }
+  .col-5{
+    width: 100%;
+  }
+  .col-7{
+    width: 100%;
+  }
   .btn {
     padding: 10px 20px;
     font-size: 16px;
+  }
+  .section__line{
+    margin: 25px auto;
+  }
+  .section__title{
+    font-size: 28px;
   }
 }
